@@ -8,7 +8,7 @@
 angular.module('starter', ['ionic'])
 
 .run(function($ionicPlatform: ionic.platform.IonicPlatformService) {
-  $ionicPlatform.ready(function() {
+  $ionicPlatform.ready(() => {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
     if (cordova.platformId === 'ios' && window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
