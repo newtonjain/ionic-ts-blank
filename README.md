@@ -50,6 +50,8 @@ ionic-typescript-blank/
 |
 ├── resources/                         * Images for splash screens and icons
 |
+├── typings/                           * Contains all typings for this project
+|
 ├── www/                               * Folder that is copied over to platforms www directory
 │   │   
 │   ├── js/                            * Contains transpiled JS files from TS files
@@ -66,6 +68,7 @@ ionic-typescript-blank/
 ├── .editorconfig                      * Defines coding styles between editors
 ├── .gitignore                         * Example git ignore file
 ├── config.xml                         * Cordova configuration file
+├── gulpfile.js                        * Contains gulp tasks for compiling ts files, scss files and more..
 ├── ionic.project                      * Ionic configuration file
 ├── package.json                       * Our javascript dependencies
 ├── ionic-typescript-blank.sln         * VS solution
